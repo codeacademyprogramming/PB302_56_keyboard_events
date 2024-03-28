@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            height: 100vh;
+            background-color: black;
+            margin: 0 auto;
+            width: 500px;
+            position: relative;
+        }
+
+        .circle{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: orange;
+            border-radius: 50%;
+            left: 0px;
+            top:0px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="circle">
+
+        </div>
+    </div>
+    
+
+    <script>
+        document.addEventListener("keyup",function(e){
+            if(e.key=="ArrowRight"){
+                console.log("hello")
+            }
+        })
+    </script>
+</body>
+</html>
